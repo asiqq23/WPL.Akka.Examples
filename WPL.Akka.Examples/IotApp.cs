@@ -1,4 +1,8 @@
-﻿using WPL.Akka.Examples.PrintMyActorRef;
+﻿using System;
+using Akka.Actor;
+using Akka.Event;
+using Akka.Pattern;
+using WPL.Akka.Examples.PrintMyActorRef;
 using WPL.Akka.Examples.StartStopActor;
 
 namespace WPL.Akka.Examples
@@ -9,6 +13,9 @@ namespace WPL.Akka.Examples
         {
             //PrintMyActorRefInit.Init();
             //StartStopActorsInit.Init();
+            SupervisionActors.SupervisionActors.Init();
         }
     }
+
+    
 }

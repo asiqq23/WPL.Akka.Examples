@@ -1,4 +1,5 @@
 ﻿using System;
+using Akka.Event;
 
 namespace WPL.Akka.Examples
 {
@@ -6,7 +7,9 @@ namespace WPL.Akka.Examples
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            IotApp.Init();
+
+            Console.ReadKey();
         }
     }
 }

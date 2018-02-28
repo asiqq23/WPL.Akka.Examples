@@ -1,8 +1,7 @@
-﻿using System;
-using Akka.Event;
-
-namespace WPL.Akka.Examples
+﻿namespace WPL.AkkaNet.Examples
 {
+    using System;
+
     class Program
     {
         static void Main(string[] args)

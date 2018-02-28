@@ -1,7 +1,7 @@
 ﻿using System;
 using Akka.Actor;
 
-namespace WPL.Akka.Examples.PrintMyActorRef
+namespace WPL.AkkaNet.Examples.PrintMyActorRef
 {
     public class PrintMyActorRefActor : UntypedActor
     {

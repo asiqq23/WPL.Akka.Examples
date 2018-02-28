@@ -1,7 +1,7 @@
 ﻿using System;
 using Akka.Actor;
 
-namespace WPL.Akka.Examples.SupervisionActors
+namespace WPL.AkkaNet.Examples.SupervisionActors
 {
     public class SupervisedActor : UntypedActor
     {

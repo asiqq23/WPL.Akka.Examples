@@ -1,7 +1,7 @@
 ﻿using System;
 using Akka.Actor;
 
-namespace WPL.Akka.Examples.StartStopActor
+namespace WPL.AkkaNet.Examples.StartStopActor
 {
     public class StartStopActor2 : UntypedActor
     {

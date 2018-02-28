@@ -1,8 +1,7 @@
-﻿using System;
-using Akka.Actor;
-
-namespace WPL.Akka.IotApp
+﻿namespace WPL.AkkaNet.IotApp
 {
+    using Akka.Actor;
+
     public class IotAppInit
     {
         public static void Init()

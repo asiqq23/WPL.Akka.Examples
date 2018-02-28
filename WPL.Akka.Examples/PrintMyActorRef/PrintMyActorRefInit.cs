@@ -1,8 +1,8 @@
-﻿using System;
-using Akka.Actor;
-
-namespace WPL.Akka.Examples.PrintMyActorRef
+﻿namespace WPL.AkkaNet.Examples.PrintMyActorRef
 {
+    using System;
+    using Akka.Actor;
+
     public class PrintMyActorRefInit
     {
         public static void Init()

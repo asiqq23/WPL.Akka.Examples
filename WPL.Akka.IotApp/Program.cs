@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace WPL.Akka.IotApp
+﻿namespace WPL.AkkaNet.IotApp
 {
+    using System;
+
     class Program
     {
         static void Main(string[] args)

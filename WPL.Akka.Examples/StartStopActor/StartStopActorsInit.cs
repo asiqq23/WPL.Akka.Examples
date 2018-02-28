@@ -1,6 +1,6 @@
 ﻿using Akka.Actor;
 
-namespace WPL.Akka.Examples.StartStopActor
+namespace WPL.AkkaNet.Examples.StartStopActor
 {
     public class StartStopActorsInit
     {

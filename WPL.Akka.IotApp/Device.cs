@@ -5,7 +5,7 @@
 
     public class Device : UntypedActor
     {
-        private readonly double? _lastTemperatureReading = null;
+        private double? _lastTemperatureReading = null;
 
         public string GroupId { get; }
         public string DeviceId { get; }
@@ -25,6 +25,12 @@
         {
             switch (message)
             {
+                case RecordTemperature rec:
+                    Log.Info($"Recorded temperature reading {rec.Value} with {rec.RequestId}");
+                    _lastTemperatureReading = rec.Value;
+                    Sender.Tell(new TemperatureRecorded(rec.RequestId));
+                    break;
+
                 case ReadTemperature read:
                     Sender.Tell(new RespondTemperature(read.RequestId, _lastTemperatureReading));
                     break;

@@ -4,7 +4,7 @@ namespace WPL.AkkaNet.Examples.SupervisionActors
 {
     public class SupervisingActor : UntypedActor
     {
-        private IActorRef supervisedActor = Context.ActorOf(Props.Create<SupervisedActor>(), "supervides");
+        private IActorRef supervisedActor = Context.ActorOf(Props.Create<SupervisedActor>(), "supervised");
 
         protected override void OnReceive(object message)
         {
@@ -16,5 +16,7 @@ namespace WPL.AkkaNet.Examples.SupervisionActors
                     break;
             }
         }
+
     }
+
 }

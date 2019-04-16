@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPL.AkkaNet.Examples", "WPL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPL.AkkaNet.IotApp", "WPL.Akka.IotApp\WPL.AkkaNet.IotApp.csproj", "{94B0D9CF-7C5D-476E-9B22-B0D4F80BD789}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPL.AkkaNet.IotApp.Tests", "WPL.AkkaNet.IotApp.Tests\WPL.AkkaNet.IotApp.Tests.csproj", "{F1873BE7-24D0-4BE4-9576-B9A3EB520871}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{94B0D9CF-7C5D-476E-9B22-B0D4F80BD789}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94B0D9CF-7C5D-476E-9B22-B0D4F80BD789}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94B0D9CF-7C5D-476E-9B22-B0D4F80BD789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1873BE7-24D0-4BE4-9576-B9A3EB520871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1873BE7-24D0-4BE4-9576-B9A3EB520871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1873BE7-24D0-4BE4-9576-B9A3EB520871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1873BE7-24D0-4BE4-9576-B9A3EB520871}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
